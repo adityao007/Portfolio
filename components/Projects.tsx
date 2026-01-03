@@ -8,18 +8,6 @@ import { ChevronLeft, ChevronRight, ExternalLink, Github, Calendar } from 'lucid
 const projects = [
   {
     id: 1,
-    title: 'AI Fitness Trainer',
-    year: '2024',
-    description:
-      'An AI-powered fitness application that tracks workout sessions by monitoring body movements and counting exercises using the MediaPipe library. The system uses body part angles to accurately determine exercise counts and provides real-time feedback during workouts.',
-    technologies: ['Python', 'MediaPipe', 'Computer Vision', 'AI'],
-    images: ['/images/ai_fitness1.png', '/images/ai_fitness2.png'],
-    github: 'https://github.com/adityao007/AI_Fitness_trainer_main',
-    live: 'https://github.com/adityao007/AI_Fitness_trainer_main',
-    gradient: 'from-blue-500 to-cyan-500',
-  },
-  {
-    id: 2,
     title: 'Online Shop',
     year: '2024',
     description:
@@ -29,6 +17,18 @@ const projects = [
     github: 'https://github.com/adityao007/Online-shop',
     live: 'https://github.com/adityao007/Online-shop',
     gradient: 'from-purple-500 to-pink-500',
+  },
+  {
+    id: 2,
+    title: 'AI Fitness Trainer',
+    year: '2024',
+    description:
+      'An AI-powered fitness application that tracks workout sessions by monitoring body movements and counting exercises using the MediaPipe library. The system uses body part angles to accurately determine exercise counts and provides real-time feedback during workouts.',
+    technologies: ['Python', 'MediaPipe', 'Computer Vision', 'AI'],
+    images: ['/images/ai_fitness1.png', '/images/ai_fitness2.png'],
+    github: 'https://github.com/adityao007/AI_Fitness_trainer_main',
+    live: 'https://github.com/adityao007/AI_Fitness_trainer_main',
+    gradient: 'from-blue-500 to-cyan-500',
   },
   {
     id: 3,
